@@ -1,171 +1,21 @@
-/* General Body */
+!-- Contact Section -->
 
-body {
+  <section id="contact">
 
-  font-family: Arial, sans-serif;
+    <h2>Contact</h2>
 
-  margin: 0;
+    <div class="card">
 
-  padding: 0;
+      <p>If you’d like to connect with me, feel free to reach out!</p>
 
-  background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+      <a href="mailto:your-email@example.com" class="btn">Send Email</a>
 
-  color: #333;
+    </div>
 
-}
+  </section>
 
-/* Header */
+  <footer>
 
-header {
+    <p>© 2025 K.Kamatchi | Digital Portfolio</p>
 
-  background: #2c3e50;
-
-  color: white;
-
-  text-align: center;
-
-  padding: 25px;
-
-  font-size: 20px;
-
-}
-
-/* Navbar */
-
-nav {
-
-  background: #16a085;
-
-  padding: 12px;
-
-  text-align: center;
-
-}
-
-nav a {
-
-  color: white;
-
-  text-decoration: none;
-
-  margin: 0 15px;
-
-  font-weight: bold;
-
-  font-size: 18px;
-
-}
-
-nav a:hover {
-
-  color: yellow;
-
-}
-
-/* Sections */
-
-section {
-
-  padding: 40px;
-
-  max-width: 1000px;
-
-  margin: auto;
-
-}
-
-.card {
-
-  background: white;
-
-  padding: 20px;
-
-  margin: 20px 0;
-
-  border-radius: 12px;
-
-  box-shadow: 0px 6px 12px rgba(0,0,0,0.2);
-
-  transition: transform 0.3s;
-
-}
-
-.card:hover {
-
-  transform: scale(1.02);
-
-}
-
-/* Gallery */
-
-.gallery {
-
-  display: flex;
-
-  gap: 15px;
-
-  flex-wrap: wrap;
-
-}
-
-.gallery img {
-
-  width: 30%;
-
-  border-radius: 10px;
-
-  transition: transform 0.3s;
-
-}
-
-.gallery img:hover {
-
-  transform: scale(1.1);
-
-  border: 3px solid #16a085;
-
-}
-
-/* Footer */
-
-footer {
-
-  background: #2c3e50;
-
-  color: white;
-
-  text-align: center;
-
-  padding: 15px;
-
-  margin-top: 30px;
-
-}
-
-/* Button */
-
-button {
-
-  background: #e74c3c;
-
-  color: white;
-
-  border: none;
-
-  padding: 12px 20px;
-
-  font-size: 16px;
-
-  border-radius: 8px;
-
-  cursor: pointer;
-
-  transition: background 0.3s;
-
-}
-
-button:hover {
-
-  background: #c0392b;
-
-}
+  </footer>
